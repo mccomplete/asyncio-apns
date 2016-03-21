@@ -1,7 +1,7 @@
 import sys
 from distutils.core import setup
 
-install_requires = ["h2==2.1.3dev"]
+install_requires = ["h2"]
 if sys.version_info < (3, 5):
     install_requires.append("typing")
 
